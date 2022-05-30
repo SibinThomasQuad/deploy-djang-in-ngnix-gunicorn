@@ -1,0 +1,4 @@
+location /static/{
+    autoindex on;
+    alias /<your_path_to the_static_folder>/;
+}
